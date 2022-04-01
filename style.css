@@ -1,0 +1,24 @@
+#header {
+background-color:black;
+color:white;
+text-align:center;
+}
+#bio {
+text-align:center;
+color:white;}
+#intro {
+vertical-align:middle;
+border: 2px dashed white;
+width:600px;}
+#in {
+color:white;}
+
+.left {
+float:left;}
+
+#text {
+color:white;}
+.credits
+    {position:relative;}
+.credit
+    {position:absolute; bottom:0; right:0;}

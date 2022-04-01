@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title> Get Name </title>
+  </head>
+  <body>
+    <form method="GET" action="processnameCGI.py" >
+    	Dear 	<input type="radio" name = "title" value = "Mrs.">Mrs.
+		<input type="radio" name = "title" value = "Mr.">Mr.
+		<input type="radio" name = "title" value = "Dr.">Dr.
+		<input type="radio" name = "title" value = "Ms.">Ms.
+      <input type = "text" name = "Name" size = "20">
+<br>
+      <p>Yeah this is just filler rn bruh
+	<select name = "item" size = "1">
+		<option>stuff1</option>
+		<option selected = "">stuff2</option>
+
+	</select>
+	Yeah here's some more filler xd put some more options inside you know and the selected = "" just makes it the default selected one yeah it's gonna be pretty easy if I do say so myself
+<br>
+	<input type = "submit" name = "submitname" value = "Submit Letter">
+    </form>
+
+    
+  </body>
+</html>

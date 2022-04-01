@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title> SEARCH FOR TEACHER </title>
+	<style>
+		html {
+			background: url("lavender.jpg") no-repeat center fixed;
+			background-size: cover;
+   		}
+		h1 {
+			font-size: 150%;
+			font-family: Georgia;
+		}
+		p {
+			font-size: 120%;
+			font-family: Georgia;
+		}
+	</style>
+  </head>
+  <body>
+	  
+	  <form method="post" action="returnstats.py" >
+		  <center><h1>SEARCH FOR TEACHERS!</h1></center>
+		  
+		  <p>Enter your teacher's name (First Last):</p>
+		  <input type="text" name="fullname"
+		  placeholder="e.g. Jim Cocoros"
+		  autofocus required="required">
+		  <br>
+		  <br>
+	<p>Enter your teacher's subject area</p>
+		<select name = "name">
+			<option value = "english">English</option>
+			<option value = "math">Math</option>
+			<option value = "computer science">Computer Science</option>
+			<option value = "music">Music</option>
+			<option value = "science">Science</option>
+			<option value = "history">History</option>
+			<option value = "physical education">Physical Education</option>
+		</select>
+		<br>
+		<br>
+		  <input type="submit" name="submitname" value="Search" />
+	  </form>
+
+		
+	  <h5><p><a href="http://homer.stuy.edu/~bwang10/ratemyteacher.html">Write your own review</a></p><h5>
+  <body>
+	<link rel = "stylesheet" : type = "text/css" href = "style.css">
+	<div class="credits">
+    	<p class="credit">I worked with Madelyn Mao on this portion of the project</p>
+	</body>
+  </body>
+</html>

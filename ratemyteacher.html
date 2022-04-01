@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title> RATE YOUR TEACHER </title>
+	<style>
+		html {
+			background: url("star.jpeg") no-repeat center fixed;
+			background-size: cover;
+   		}
+		h1 {
+			font-size: 150%;
+			font-family: Georgia;
+		}
+		p {
+			font-size: 120%;
+			font-family: Georgia;
+		}
+	</style>
+  </head>
+  <body>
+
+	<form method="get" action="ratemyteacher.py" >
+		<center><h1>WELCOME TO RATE MY STUY TEACHER!</h1></center>
+
+		<p>Enter your teacher's first name</p>
+		<input type="text" name="first name"
+			placeholder="Aziz" 
+				autofocus required="required"> 
+		</p>
+		<br>
+		<br>
+		
+		<p>Enter your teacher's last name</p>
+		<input type="text" name="last name"
+			placeholder="Jumash" 
+                        autofocus required="required"> 
+		</p>
+		<br>
+		<br>
+		
+		<p>Enter your teacher's subject area</p>
+		<select name = "name">
+			<option value = "english">English</option>
+			<option value = "math">Math</option>
+			<option value = "computer science">Computer Science</option>
+			<option value = "music">Music</option>
+			<option value = "science">Science</option>
+			<option value = "history">History</option>
+			<option value = "physical Education">Physical Education</option>
+		</select>
+		</p>
+		<br>
+		<br>
+		
+		<p>Enter your rating! (1: dislike, 5: LOVE)</p>
+		<select name = "rating">
+			<option value = "1 star">1 star</option>
+			<option value = "2 star">2 stars</option>
+			<option value = "3 star">3 stars</option>
+			<option value = "4 star">4 stars</option>
+			<option value = "5 star">5 stars</option>
+		</select>
+		</p>
+		<br>
+		<br>
+		
+		<p>Enter your review</p>
+		<textarea rows = "7" style = "width: 30%" name = "stuff"></textarea>
+		</p>
+		<br>
+		<br>
+
+		<input type = "submit" name="submitname" value = "Submit Form"/>
+	</form>
+	
+	<br>
+	<a href="http://homer.stuy.edu/~bwang10/searchforteacher.html">Read other reviews</a>
+    
+<body>
+	<link rel = "stylesheet" : type = "text/css" href = "style.css">
+	<div class="credits">
+    	<p class="credit">I worked with Madelyn Mao on this portion of the project</p>
+	</body>
+
+  </body>
+</html>
